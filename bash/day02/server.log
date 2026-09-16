@@ -1,0 +1,6 @@
+INFO Server started
+INFO Request 1
+INFO Request 2
+WARNING High memory usage
+INFO Request 3
+ERROR Service timeout
