@@ -1,0 +1,8 @@
+chmod = change rights for user, group & others
+chown = change owner
+ps = show active processes
+top = active processes and systemload
+kill = terminate a process SIGTERM, -9 kill a process immediately SIGKILL
+systemctl = Systemcontroll shows Status of processes or more likely a systemd-unit if active, inactive or failed.
+journalctl = Show system and process logs/systemd-journal
+sudo = superuser do / substitute user do
