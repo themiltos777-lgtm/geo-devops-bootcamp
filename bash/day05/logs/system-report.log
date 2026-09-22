@@ -1,0 +1,52 @@
+=== SYSTEM REPORT ===
+Datum: Tue Sep 22 10:19:26 CEST 2026
+User: the-m
+Host: Miltos-Legion
+
+=== SYSTEM INFO ===
+Kernel: 6.6.87.2-microsoft-standard-WSL2
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+
+=== DISK USAGE ===
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  1.6G  955G   1% /
+1
+=== DISK CHECK ===
+Belegt: 1%
+Festplatte: OK
+
+=== MEMORY ===
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi       834Mi        30Gi       3.6Mi       260Mi        30Gi
+Swap:          8.0Gi          0B       8.0Gi
+
+=== TOP MEMORY PROCESSES ===
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         265  0.0  0.0 123444 31744 ?        Ssl  07:41   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         168  0.0  0.0  44080 26880 ?        Ss   07:41   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          43  0.0  0.0  50388 15872 ?        S<s  07:41   0:00 /usr/lib/systemd/systemd-journald
+root           1  0.0  0.0  24524 14080 ?        Ss   07:41   0:02 /sbin/init
+systemd+      80  0.0  0.0  22400 13824 ?        Ss   07:41   0:00 /usr/lib/systemd/systemd-resolved
+=== SORT BY CPU ===
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0  24524 14080 ?        Ss   07:41   0:02 /sbin/init
+root        1507  0.0  0.0 1866024 13312 ?       Ssl  10:17   0:00 /usr/libexec/wsl-pro-service
+root         371  0.0  0.0   3140  1024 ?        S    07:41   0:00 /init
+root          86  0.0  0.0  35560 12032 ?        Ss   07:41   0:00 /usr/lib/systemd/systemd-udevd
+the-m        372  0.0  0.0   6372  5376 pts/0    Ss   07:41   0:00 -bash
+root          43  0.0  0.0  50388 15872 ?        S<s  07:41   0:00 /usr/lib/systemd/systemd-journald
+root         168  0.0  0.0  44080 26880 ?        Ss   07:41   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         265  0.0  0.0 123444 31744 ?        Ssl  07:41   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+_chrony      249  0.0  0.0  20408  4608 ?        S    07:41   0:00 /usr/sbin/chronyd -n -F 1 -x
+
+Prüfe Dienst: cron
+cron: OK
+
+Prüfe Dienst: ssh
+ssh: nicht installiert
+
+Prüfe Dienst: postgresql
+postgresql: nicht installiert
+
+=== SUMMARY ===
+Keine kritischen Fehler gefunden.
