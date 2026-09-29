@@ -1,0 +1,52 @@
+=== HEALTH CHECK ===
+Datum:
+Tue Sep 29 12:41:12 CEST 2026
+
+Host:
+Miltos-Legion
+
+User:
+the-m
+
+Kernel:
+6.6.87.2-microsoft-standard-WSL2
+
+RAM:
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi       828Mi        30Gi       3.6Mi       182Mi        30Gi
+Swap:          8.0Gi          0B       8.0Gi
+
+Diskusage:
+Filesystem      Size  Used Avail Use% Mounted on
+none             16G     0   16G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none             16G  4.0K   16G   1% /mnt/wsl
+drivers         1.9T  878G  1.1T  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.7G  955G   1% /
+none             16G   80K   16G   1% /mnt/wslg
+none             16G     0   16G   0% /usr/lib/wsl/lib
+rootfs           16G  2.7M   16G   1% /init
+none             16G  608K   16G   1% /run
+none             16G     0   16G   0% /run/lock
+none             16G     0   16G   0% /run/shm
+none             16G   76K   16G   1% /mnt/wslg/versions.txt
+none             16G   76K   16G   1% /mnt/wslg/doc
+C:\             1.9T  878G  1.1T  46% /mnt/c
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs            16G     0   16G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+none            1.0M     0  1.0M   0% /run/credentials/console-getty.service
+tmpfs           3.2G   12K  3.2G   1% /run/user/1000
+
+Cronjobs:
+Cron: OK
+
+HighRamUsage:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         372  0.0  0.0 123448 31744 ?        Ssl  11:38   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         197  0.0  0.0  44084 27392 ?        Ss   11:38   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          46  0.0  0.0  50392 15616 ?        S<s  11:38   0:00 /usr/lib/systemd/systemd-journald
+root           1  0.0  0.0  24200 14080 ?        Ss   11:38   0:00 /sbin/init
+root        1200  0.0  0.0 1792292 13824 ?       Ssl  12:40   0:00 /usr/libexec/wsl-pro-service
+
+Systemcheck erfolgreich.
