@@ -1,0 +1,29 @@
+Seq Scan = PostgreSQL liest die Tabelle der Reihe nach und prüft jede relevante Zeile.
+
+Index Scan = PostgreSQL benutzt den Index, um gezielt zu passenden Zeilen zu gelangen,
+statt die gesamte Tabelle zu durchsuchen.
+
+Index = Index = Register im Buch. Statt jede Seite durchzulesen, 
+finde ich über das Register schneller die richtige Stelle. 
+
+EXPLAIN = zeigt den geplanten Ausführungsweg und geschätzte Kosten.
+
+EXPLAIN ANALYZE =
+= Query tatsächlich ausführen
++ Plan
++ echte Zeilen
++ echte Laufzeiten
+
+ANALYZE = Es sammelt Statistiken über die Daten in der Tabelle.
+
+VACUUM = räumt tote Zeilenversionen auf und macht ihren Platz wieder nutzbar. 
+ALT:
+1 | Berlin Hbf        ← alte Version, nicht mehr gültig
+
+NEU:
+1 | Berlin Hauptbahnhof
+
+Selektivität = hohe Selektivität
+→ starke Eingrenzung
+→ wenige Zeilen
+→ Index oft attraktiv
